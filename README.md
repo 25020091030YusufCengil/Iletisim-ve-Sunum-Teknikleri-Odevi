@@ -1,32 +1,45 @@
-🚀 İletişim ve Sunum Teknikleri Ödevi - Geliştirme Detayları
-Bu proje, "İletişim ve Sunum Teknikleri" dersi kapsamında geliştirilen, temel C programlama mantığı üzerine kurgulanmış bir çalışmadır. Repository içerisinde projenin kaynak kodları, lisans bilgileri ve yapılandırma dosyaları yer almaktadır.
+💻 C Programlama Projesi – Türkçe Karakter Çıktısı
+📌 Proje Açıklaması
+Bu proje, İletişim ve Sunum Teknikleri dersi kapsamında geliştirilmiştir. C programlama dili kullanılarak ad ve soyadın Türkçe karakter desteğiyle konsol ekranına doğru biçimde yazdırılması amaçlanmıştır. Program geliştirilirken karakter kodlaması, konsol çıktısı davranışı ve derleme süreci dikkatle incelenmiştir.
 
-🛠️ Geliştirme Ortamı ve Donanım Özellikleri
-Projenin derlenmesi, test edilmesi ve performans optimizasyonları aşağıdaki yüksek performanslı sistem üzerinde gerçekleştirilmiştir:
+🎯 Projenin Amacı
+Bu çalışma ile:
 
-Sistem: Casper Excalibur Serisi
+C dilinin temel yapısını kavramak
 
-Ekran Kartı (GPU): NVIDIA GeForce RTX 5060 (Yeni nesil mimari ile yüksek işlem gücü)
+main() fonksiyonunun çalışma mantığını öğrenmek
 
-Geliştirme Ortamı (IDE): Visual Studio Code / Dev-C++ (Kullandığın spesifik bir IDE varsa adını buraya ekleyebilirsin)
+printf() fonksiyonunun kullanımını pekiştirmek
+
+Türkçe karakterlerin konsol ortamında doğru görüntülenmesini gözlemlemek
+
+IDE ve derleyici kullanım pratiği kazanmak
+
+amaçlanmıştır.
+
+🛠️ Kullanılan Teknolojiler
+Programlama Dili: C Programlama Dili
+
+IDE: CLion / Visual Studio Code
 
 Derleyici: GCC (GNU Compiler Collection)
-Dosya	Açıklama						
-main.c	    Projenin ana kaynak kodudur. Tüm algoritma ve fonksiyonlar bu dosya içerisinde yer alır.						
-.gitignore	Git versiyon sistemine dahil edilmemesi gereken (geçici dosyalar, derleme çıktıları vb.) verileri tanımlar.						
-LICENSE	    Projenin MIT Lisansı ile korunduğunu ve açık kaynak kullanım koşullarını belirtir.						
-README.md	  Şu an okumakta olduğunuz, proje hakkında genel bilgileri içeren dökümantasyon dosyasıdır.						
-							
 
-💻 Kurulum ve Çalıştırma
-Kodun yerel makinenizde çalıştırılması için bir C derleyicisinin yüklü olması yeterlidir:
+🖥️ Geliştirme Ortamı (Donanım)
+Programın geliştirilmesi ve performans testleri aşağıdaki yüksek donanımlı sistem üzerinde gerçekleştirilmiştir:
 
-1.Dosyayı indirin veya clone'layın.
+Sistem: Casper Excalibur
 
-2.açın ve dosya dizinine gidin.
+İşlemci: Intel Core i7 / i9 Serisi (Modeline göre güncelleyebilirsin)
 
-3.Aşağıdaki komutla derleyin:
-gcc main.c -o proje_cikisi
+Ekran Kartı: NVIDIA GeForce RTX 5060
 
-4.Çalıştırın:
-./proje_cikisi
+Bellek (RAM): 32 GB DDR5
+
+Depolama: 1 TB NVMe SSD
+
+▶️ Program Nasıl Çalıştırılır?
+GCC ile Derleme ve Çalıştırma:
+
+Bash
+gcc main.c -o program
+./program
