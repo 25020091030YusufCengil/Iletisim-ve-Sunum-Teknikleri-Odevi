@@ -11,12 +11,19 @@ Ekran Kartı (GPU): NVIDIA GeForce RTX 5060 (Yeni nesil mimari ile yüksek işle
 Geliştirme Ortamı (IDE): Visual Studio Code / Dev-C++ (Kullandığın spesifik bir IDE varsa adını buraya ekleyebilirsin)
 
 Derleyici: GCC (GNU Compiler Collection)
+Dosya	Açıklama						
+main.c	    Projenin ana kaynak kodudur. Tüm algoritma ve fonksiyonlar bu dosya içerisinde yer alır.						
+.gitignore	Git versiyon sistemine dahil edilmemesi gereken (geçici dosyalar, derleme çıktıları vb.) verileri tanımlar.						
+LICENSE	    Projenin MIT Lisansı ile korunduğunu ve açık kaynak kullanım koşullarını belirtir.						
+README.md	  Şu an okumakta olduğunuz, proje hakkında genel bilgileri içeren dökümantasyon dosyasıdır.						
+							
+
 💻 Kurulum ve Çalıştırma
 Kodun yerel makinenizde çalıştırılması için bir C derleyicisinin yüklü olması yeterlidir:
 
 1.Dosyayı indirin veya clone'layın.
 
-2. açın ve dosya dizinine gidin.
+2.açın ve dosya dizinine gidin.
 
 3.Aşağıdaki komutla derleyin:
 gcc main.c -o proje_cikisi
